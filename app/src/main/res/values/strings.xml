@@ -1,0 +1,20 @@
+<resources>
+<string name="app_name">Music App</string>
+<string name="songs_activity_name">Songs</string>
+<string name="radio_activity_name">Radio</string>
+<string name="activity_main_heading">Udacious player</string>
+<string name="currentlyPlaying_activity_name">Currently Playing</string>
+<string name="albums_activity_name">Albums</string>
+<string name="currentlyPlaying_description">This activity will have at least one image view
+        to show a currently music playing title image. It will also have some buttons (in this case icons) for starting to play the music and then also to stop playing music and to change speed.
+        It will also has a button to get back to main aplication. There are not going to be any direct ways from currently playing. Currently playing will be shown only when someone clicks on songs or artists or albums and then he will be able to go back there from main activty. The button back will always take him back to previous activity. The bottom bar with no background will then be shown at the bottom of every other activitiy. </string>
+    <string name="albums_description">This activity will use a list view, with a lists of albums created by user. This will have to be handled by a database.It may also use external sources and libraries, for example Picasso.
+         And of course a button to get back to main aplication and also to move to a next activity as defined.</string>
+    <string name="artists_description">This activity will work very similary to albums, only it will be sorted out by different artists, handled by databases.
+         And of course a button to get back to main aplication and also to move to a next activity as defined.</string>
+    <string name="songs_description">This activity will have a list  of songs, so it will use list view again and probadly with a small icons next to each other. It will be stored and directed with a help of databases. I am mentioning it because i know in the end of this course there is an introduction into sql and databases. </string>
+<string name="back_to_previous_activity">Back</string>
+<string name="main_activity_functionality">Main activity will be the first thing displayed when app is launched. From here, you can go to a different parts of application.</string>
+<string name="currently_playing_author_name">Adele:</string>
+<string name="currently_playing_song_name">Rolling in the deep</string>
+</resources>

@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            style="@style/navbar_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                style="@style/navbar_active__style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/ic_home_black_24dp" />
+
+            <ImageView
+                android:id="@+id/currently_playing_from_main"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/ic_play_circle_filled_black_24dp" />
+
+            <ImageView
+                android:id="@+id/songs_activity_from_main"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/ic_library_music_black_24dp" />
+
+            <ImageView
+                android:id="@+id/albums_activity_from_main"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/ic_album_black_24dp" />
+
+            <ImageView
+                android:id="@+id/radio_activity_from_main"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/ic_radio_black_24dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/navbar_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/navbar_active__style"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Home" />
+
+            <TextView
+                style="@style/navbar_description_text_style"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Currently playing" />
+
+            <TextView
+                style="@style/navbar_description_text_style"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/songs_activity_name" />
+
+            <TextView
+                style="@style/navbar_description_text_style"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/albums_activity_name" />
+
+            <TextView
+                style="@style/navbar_description_text_style"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/radio_activity_name" />
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</RelativeLayout>
